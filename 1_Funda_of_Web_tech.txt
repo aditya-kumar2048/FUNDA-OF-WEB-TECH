@@ -1,0 +1,76 @@
+    MEAN Stack
+    >> M : MongoDB(Data Base)
+    >> E : ExpressJs(Backend)
+    >> A : Angular(Frontend)
+    >> N : NodeJs(Backend)
+
+Three Pillars 
+    >> HTML (Hyper Text Markup Language)
+    >> CSS (Cascading Style Sheet)
+    >> JS (Java Script) - it is the heart of application
+
+Others Stacks : 
+    >> MEAN , MERN , Java Full Stack
+
+Web Dev 
+    >> Building / Developers Team
+    >> Testing Team (Manual Testers or Automated Testers)
+    >> Hosting Team(DevOps)
+    >> Maintenance Team/Support Team
+
+SDLC (Software Development Life Cycle)
+    >> WaterFall Model
+    >> Agile Model
+    >> Spiral Model
+    >> Iterative Model
+    >> Incremental Model
+    >> V Shaped Model
+    >> RAD (Rapic Application Development) Model
+
+URL (Uniform Resourc Locator)
+    https://www.instagram.com
+    https://education.adityaAcademy.edu/fullStack
+
+    https : Protocol
+    adityaAcademy : Server/Domain Name
+    education : Sub-Domain
+    .edu : TLD (Top Level Domain)
+    fullStack : Path/Location
+
+Protocol
+    >> Set of rules / instructions
+    http    : Hyper Text Transfer Protocol eg : educational sites
+    https   : Hyper Text Transfer Protocol Secure   eg : transaction sites or banking sites
+    tcp     : Transmission Control Protocol
+    udp     : User Datagram Protocol
+    smtp    : Simple Mail Transfer Protocol
+    ftp     : File Transfer Protocol
+    ip      : Internet Protocol(ipV4 or ipV6)       V -----> version
+
+
+        >> Client/Web Page -----------------(uName & uPass)------------------> Instagram Server
+        >> SSL  (Secure Socket Layer) Certification
+    
+Server / Domain Name : 
+    >> Unique Identifier
+        >> Eg : Google , Amazon
+    
+Sub-Domain Name : 
+    >> GMeet
+    >> GMaps
+    >> GDrive
+    >> GPays
+    >> GPhotos
+    >> GChrome 
+    >> GFiles
+    >> GMail
+
+    >> Amazon Shopping
+    >> Amazon Prime 
+
+TLD (Top Level Domain) : 
+    Amazon.in(India)
+    Amazon.com(Commercial)
+    Amazon.edu(educational)
+    Amazon.org(Organization)
+    Amazon.uk(United Kingdom)
