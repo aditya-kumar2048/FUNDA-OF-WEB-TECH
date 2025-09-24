@@ -1,0 +1,77 @@
+/*  
+    Selector Syntax:
+    selector type {
+    propertyKey : propertyValue;
+}
+*/
+
+/* p {} -> this is element selector */
+
+p{
+    color: red;
+}
+
+h2{
+    color: grey;
+}
+
+/* #para{} -> this is id selector (to use it first add # before id name.)*/
+/* ID Selector */
+#para{
+    color: maroon;
+}
+
+
+/* .para2{} -> this is class selector (to use it first add . befor class name) */
+.para2{
+    font-family: cursive;
+}
+.highlighter{
+    color: chocolate;
+}
+.headingStyles{
+    background-color: aqua;
+}
+
+
+/* Nested Selector  */
+/* in case u have to write same property in diffrent class or ids or selectors we use this 
+*/
+#para , #heading , .highlighter , p{
+    color: rgb(106, 0, 255);
+}
+
+/* Specificity Order :
+            >> ID >> Class >> Element
+*/
+#nestedid  {
+    color: red;
+}
+.nesteadClass{
+    color: blue;
+}
+p{
+    color: rgb(85, 0, 255);
+}
+/* this show id has more priority */
+
+/* Universal Selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+/* Descendant Selector */
+
+#descSel p{
+    color: red;
+}
+
+/* Direct Child Selector */
+#dirSel > p{
+    color: red;
+}
+
+p:hover{
+    color: green;
+}

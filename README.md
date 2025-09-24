@@ -7,3 +7,6 @@ It includes lecture notes, assignments, and projects covering:
 - MongoDB for database  
 - Full-stack MERN projects with authentication and security
 
+`Technologies : `
+
+- Favicon - it is a platform where we can generate icon through either png, text or emoji .
