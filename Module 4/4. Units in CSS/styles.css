@@ -1,0 +1,19 @@
+main{
+    border: 2px solid black;
+    border: 4px dotted black;
+    border: 4px solid rgb(112, 13, 29);
+    /* border-radius: 5%; */
+    width: 50%;
+    /* % , vw(view width) , vh(view height) , em(element) , rem(root element)  */
+    /* width: 50vw; */
+}
+section{
+    border: 4px dotted green;
+    width: 70vw;
+}
+h2{
+    /* font-size: 42px; */
+    font-size: 2em;
+    /*  if our heading or any tag is inside any tag we should use 'rem' as bcz if we use 'em' it will multiply with the size of other tag size 
+    and it will be large as we can't think so we should use rem as it will be standard for every tag size */
+}

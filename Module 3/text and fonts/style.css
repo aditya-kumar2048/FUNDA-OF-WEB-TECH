@@ -1,0 +1,50 @@
+h1{
+        color: #b57682;
+    background-color: #264143;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-style: dotted;
+    text-decoration-style: wavy;
+    text-decoration-color: aliceblue;
+    /* color: transparent; */
+    /*  */
+        text-shadow: 2px 1px 5px rgb(0, 0, 255);
+        /* 1st value = x axis
+            2nd value = y axis
+            3rd value = blur 
+            4th value = shadow color */
+        font-family: 'Courier New', Courier, monospace;
+        /* 3 words are written for this as if one is not working may be other work if other is also not working may be last will work */
+
+        font-family: "SUSE Mono", sans-serif;
+}
+p {
+    text-indent: 40px;
+    /* indent use to add some space before starting of para */
+    letter-spacing: .05rem;
+    /* as name suggest it gives the space btw letter. */
+    line-height: 1.2rem;
+    /*  */
+    word-spacing: 10px;
+    /*  */
+    /* white-space:nowrap; */
+    /*  */
+    text-align: justify;
+}
+a{
+    text-decoration:auto;
+    text-decoration: none;
+    /* both auto and none remove the underline  */
+    text-decoration: line-through;
+    /* it cut the text by passing a line on text */
+    text-decoration: overline;
+    /* it send the line to the top instead of bottom */
+    text-decoration: double;
+    /* it do nothing */   
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(255, 0, 0);
+    color: rebeccapurple;
+
+    /* color: transparent; */
+}

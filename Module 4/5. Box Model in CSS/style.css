@@ -1,0 +1,17 @@
+*{
+    padding: 0%;
+    margin: 0;
+} 
+
+ div{
+    border: 15px solid saddlebrown;
+    padding: 30px ;
+    padding: 35px 40px 45px 50px;
+    padding: 25px 30px;
+    /* it do padding in clock wise direction */
+    padding-left: 22px;
+    margin: 25px;
+
+    width: 250px;
+    height: 250px;
+}
