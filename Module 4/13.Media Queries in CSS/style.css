@@ -1,0 +1,56 @@
+*{
+    padding: 0 ;
+    margin: 0;
+}
+body{
+    background-color: aqua ;
+}
+/* @media(width <=  500px){
+    body{
+        background-color: red;
+    }
+} */
+/* if width is less than 500px the bg color will be red */
+
+/* @media(orientation: portrait){
+    body{
+        background-color: red;
+    }
+} */
+ /* protrait means if the height is greater than width it will become red. */
+/* @media(orientation: landscape){
+    body{
+        background-color: rgb(193, 75, 75);
+    }
+} */
+/* in landscape if the height is less than width it will become red and when height is greater it will show aqua. */
+/* @media(width <=  500px){
+    body{
+        background-color: red;
+    }
+}
+@media(width<=300px){
+    body{
+        background-color: green;
+    }
+} */
+
+/*  INSTEAD OF THIS WE CAN USE THIS TOO:-   */
+
+@media(max-width : 500px) {
+    body{
+        background-color: rebeccapurple;
+    }
+
+    
+}
+/* max-width means is also same as width <= 500px. */
+
+/* we should never place low value to the top like 500px is in bottom and 300px is in top so it will not excecute as 500px will cover all self. */
+
+@media (min-width : 500px ) and (max-width : 600px ) {
+    body{
+        background-color: red;
+    }
+    
+}

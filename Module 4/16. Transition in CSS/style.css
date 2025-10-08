@@ -1,0 +1,52 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 100px auto;
+    /* transition: 1s;  */
+    transition-duration: .4s;
+    transition-property: all;
+    /* by default it is all means it is go with all simultaneous */
+    transition-property: border-radius, background-color;
+    /* by this we only specific property for border radius and bg color */
+    transition-property: border-radius;
+    /* it will mainly focus on bordr radius */
+    transition-property: background-color;
+    /* it will mainly focus on bg-color */
+    transition-property: border-radius, background-color;
+    /* it will focus on both border radius and bg-color */
+    transition-property: border-radius, background-color, transform;
+    /* transition-delay: 0.5s; */
+
+    transition-timing-function: ease;
+    /* it is by default fn , and it means start will be slow and it will fast as it moves ahead */
+
+    transition-timing-function: ease-in;
+    /* it means it will start slowly and later on it may be fast. */
+    transition-timing-function: ease-out;
+    /* it means it will start normally but it will stops slowly.*/
+    transition-timing-function: ease-in-out;
+    /*  it means it will start slowly and also end slowly . */
+    transition-timing-function: linear;
+    /* it means it will go with constant speed. */
+}
+
+.box:hover {
+    background-color: chartreuse;
+    border-radius: 50%;
+    transform: rotate(180deg);
+}
+ff
+.list{
+    display: flex;
+    gap: 20px;
+    list-style:none;
+    
+}
+.item{
+    font-size: 1.2rem;
+}
+nav{
+    background-color: black;
+    color: whitef;
+}

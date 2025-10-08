@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+}
+
+p{
+    /* width: 60%; */
+    display: block;
+    /* by default para is block means the line will generate in next line after first line. */
+    display: inline;
+    /* this will move the content in one line  */
+    display: block;
+}
+#anchor{
+    width: 60%;
+    /* no affect */
+    display: block;
+    /* after getting block it get affected with width = 60% */
+    height: 40px;
+    /* got affect untill it is in block display.*/
+    display: none;
+    /* if we use none in display it gonna hide the tag or text . */
+    display: block;
+}
+img{
+    width: 25%;
+    height: 20%;
+    display: inline-block;
+    /* no change */
+}
+/* Nav */
+ul{
+    list-style: none;
+    text-align: end;
+    background-color: black;
+    padding: 15px;
+ 
+}
+ul>li>a{
+       text-decoration: none;
+           color: bisque;
+
+}
+li>a:hover{
+    color: rgb(237, 156, 57);
+}
+li{
+    display: inline;
+   
+}

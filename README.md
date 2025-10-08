@@ -22,3 +22,5 @@ It includes lecture notes, assignments, and projects covering:
         4. select the link and paste in link section of html
         4. use import button to import to style tag it automatically work.
         5. and then copy the font family type and paste in style tag.
+
+- Pesticides for chrome - is a extension where u can get the border for every line 

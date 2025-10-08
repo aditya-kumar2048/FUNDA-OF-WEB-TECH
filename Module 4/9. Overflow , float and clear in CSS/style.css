@@ -1,0 +1,40 @@
+ .container{
+ /*   height: 400px;
+    /* width: 400px; */
+     text-align: justify; 
+    /* border: 1px solid rgb(196, 0, 33); */
+    /* overflow: hidden; */
+    /* when it goes to hidden the all content gonna hide after their boundary. */
+    /* overflow: scroll; */
+    /* when it goes to scroll content can scroll */
+
+    /* overflow: auto; */ 
+    /* it adjust automatically as the size required. also if text are small and no need of scroll then it didn't come and if texts are more than limit it automatically bring scroll features. */
+
+    /* img{
+        float: left;
+        float: right;
+    } */
+} 
+
+.subcontainer{
+    /* height: 40vh; */
+    overflow: auto;
+}
+
+.img1{
+    float: right;
+}
+.img2{
+    float:left;
+    
+}
+
+.p1{
+    clear:both; 
+    /* clear: right; */
+}
+.p2{
+    clear:left
+}
+/* clear is use to clear the space or say text are align with pic also say to separate pic from para */

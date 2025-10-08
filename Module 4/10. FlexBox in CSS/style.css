@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* All properties for parent class */
+.container{/* it is a parent class */
+    height: 400px ;
+    border: 2px solid green;
+    display: flex;
+    /* it gonna left to right and entire content fall in same row */
+
+    /* row(default) , row-reverse , column , column reverse */
+    flex-direction: row;
+    /* by default it is row */
+    flex-direction: column;
+    /* now it gonna from top to bottom */
+    flex-direction: column-reverse;
+    /* now it gonna from bottom to top acc to number */
+    flex-direction: row;
+
+    /* wrap , nowrap(default) , wrap - reverse */
+    /* flex-wrap: wrap; */
+    /* when we small our screen or split screen our boxes are shrink so to overcome this we should use wrap property it wrap the box in the same width. */
+    /* flex-wrap: wrap-reverse; */
+    /* it will just wrap the box in opposite direction */
+    /* gap: 10px; */
+    /* instead of using margin we use gap so that no extra space is left */
+    /* row-gap: 10px ;
+    column-gap: 10px; */
+    /* instead of using two diff gap property we can only use gap it will do the same work */
+
+    /* flex-flow: wrap row; */
+    /* instead of flex-direction and flex-wrap we use flex-flow this will do the same as the 2 do separatly. */
+
+    /* flex-start (default),flex end , center , space-around , space-between , space-evenly */
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+   
+    justify-content: space-evenly;
+    /* even space in all boxes and start with some space */
+     justify-content: space-between;
+     /* even space in all boxes and start with 0 space  */
+
+     align-items: center;
+     align-items: end;
+     align-items: stretch;
+     align-items: start;
+
+     align-content: space-around;
+     align-content: space-between;
+     align-content: center;
+}
+
+
+.box{
+    border: 2px solid red ;
+    margin : 10px 0;
+    width: 80px;
+
+      /* flex-basis: 25%; */
+      /* all the things get only 25% it will be in proper verified order. */
+}
+
+/* Child property */
+
+#box-1{
+    /* order: 1; */
+    /* use to move to last position */
+    flex-grow: 1;
+    /* it will take the whole extra space */
+
+    flex-shrink: 2;
+    /* it shrink at the first preference  */
+    /* the number 1 or 5 or 2 this shows order , jitna bada no utna priority */
+
+    /* flex : 0 0 200px ; */
+    /* instead of flex grow , flex shrink and flex basis we can use flex only they store value respectively. */
+
+  
+}
+#box-4{
+    /* order: 5; */
+    flex-grow: 2;
+    /* it will take twice space as compare to box 1 */
+    flex-shrink: 4;
+
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: stretch;
+    /* it will align one id or class or for separate allignment */
+}

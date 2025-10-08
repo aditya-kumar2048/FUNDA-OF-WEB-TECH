@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #222;
+    --secondary-text-color: #444;
+    --card-background-color: #fff;
+    --parent-backgraound-color: #eee;
+    --spacing-for-margin-padding: 20px;
+}
+
+/* it is global variable */
+.dark {
+    --primary-text-color: #fff;
+    --secondary-text-color: #ddd;
+    --card-background-color: #333;
+    --parent-backgraound-color: #eee;
+
+}
+
+.container {
+    padding: 45px;
+    background-color: var(--parent-backgraound-color);
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary-text-color);
+    background-color: var(--card-background-color);
+    padding: var(--spacing-for-margin-padding);
+    margin: var(--spacing-for-margin-padding);
+}
+
+h2 {
+    --backg-color: yellow;
+    /* background-color: aqua;
+    background-color: red; */
+    /* background-color: var(--backg-color); */
+    /* --var-name this is how we define variables. */
+    color: var(--primary-text-color);
+}
+
+.box {
+    padding: var(--spacing-for-margin-padding);
+    margin-block: var(--spacing-for-margin-padding);
+    /* --backg-color : aqua;
+    --backg-color : red; */
+    background-color: var(--card-background-color);
+    border-radius: 8%;
+    color: var(--primary-text-color);
+}
+
+h4 {
+    padding: 45px;
+    background-color: aqua;
+    background-color: var(--backg-color);
+    /* it does not show any bg color as --backg-color is an local variable and it will provide their access to only their child variables. if we paste inside any box class it can access. bg color. */
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid red;
+    height: 700px;
+    display: grid;
+    /* gap: 10px; */
+    row-gap: 18px;
+    column-gap: 6 px ;
+
+    grid-template-columns: 100px 200px 400px  ;
+    /* it use to create separate boxes of differ width  */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* create 3 fr of same size  */
+    grid-template-columns: 2fr 1fr 1fr;
+    /*No of dimension = no of columns. create 3 fr as dimension written 1st one is far larger than other two
+      */
+      grid-template-columns: repeat(4,1fr);
+      /* create 4 column of same dimension */
+      grid-template-columns: repeat(5 , 100px );
+      /* same same but with px unit , it just shows some extra space after holding its dimensions  */
+
+      grid-template-columns: repeat(5,auto);
+      /* it automatically  fill with same direction. */
+
+      grid-template-columns: repeat(auto-fill , auto);
+      /* it automatically fill the boxes as much they can adjust and the size will also automatically equalf */
+
+      grid-template-columns: repeat(auto-fill,100px);
+      /* it auto fill as much box can adjust of 100px dimension box.  */
+
+      grid-template-columns: 2fr 1fr;
+      /* we should use this instead of auto or auto fill */
+      grid-template-columns: 200px  100px;
+      grid-template-rows: 150px 70px 110px;
+      /* it will increase the height of rows box */
+      grid-template-rows: 120px;
+      /* the rest of rows are height set to 120px */
+      justify-content: center;
+      justify-content: end;
+      justify-content: space-between;
+      justify-content: space-evenly;
+      justify-content: baseline;
+      /* it place at start position */
+      
+      align-content: center;
+      /* it align the content b/w upper line and lower line  of parent class.*/
+      align-content: start;
+      /* it align the content start from top */
+      align-content: end;
+      /* it align the content and it end at the lower line of parent class */
+
+}
+.box{
+    border: 2px solid green;
+    padding: 12px ;
+}
+
+#box-1{
+    background-color: bisque;
+    /* justify-self: start;
+    justify-self: end;
+    justify-self: center;
+    align-self: start;
+    align-self: end;
+    align-self: center; */
+    
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    grid-column: 1/4;
+    grid-row: 1/3;
+    grid-row: 1/span 3;
+
+    grid-area: 1 / 1 / 3 /4;
+}
