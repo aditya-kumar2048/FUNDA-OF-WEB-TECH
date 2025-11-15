@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 2rem;
+    /* align-items: center; */
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    margin-left: 25%;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+}
+form {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+       /* height: 25px; */
+}
+button{
+    padding: 6px;
+}

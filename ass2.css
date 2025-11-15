@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: black;
+    width: 100%;
+    color: white;
+    /* height: 70px; */
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.logo{
+    
+    font-size: 1.5rem;
+   
+}
+.list ul{
+
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+    list-style : none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    font-size: 1.5rem;
+    text-align: center  ;
+
+}
+.username{
+    font-size: 1.5rem;
+    margin-left: auto;
+}
