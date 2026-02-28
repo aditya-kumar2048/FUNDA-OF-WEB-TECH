@@ -84,5 +84,6 @@ for(let i = 0 ; i<orders.length; i++){
     show.append(item);
 
 }
+// lets consider the example of some other project in next part
 
 
