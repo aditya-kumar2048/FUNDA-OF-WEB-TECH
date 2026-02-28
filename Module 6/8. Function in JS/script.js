@@ -25,6 +25,7 @@ sumation(l,k);
 //
 //as we are writting 3 programs of samme logic so to avoid these progream we create fn
 
+//named fn
 function sumation(r,k){
     const result = r + k;
     console.log("Result :",result);

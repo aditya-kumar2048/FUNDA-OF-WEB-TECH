@@ -36,7 +36,7 @@ console.log(square(2));
 const calculate = (a , b , operation)=>{
     return operation(a , b);
 }
-
+// call back fn 
 const sumation = calculate(2,3,function(n1,n2)
 {
     return (n1+n2)

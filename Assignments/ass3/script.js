@@ -23,6 +23,6 @@ const greet = document.getElementById('greet');
 const name = document.getElementById('name');
 
 greet.addEventListener('click', ()=>{
-    const name1 = inp.value;
-    name.textContent = 'Hello, ' + name1;
+    const name1 = inp.value.trim();
+  name.textContent = name1 ? `Hello, ${name1}` : "Hello";
 });
