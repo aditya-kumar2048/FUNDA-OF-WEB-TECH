@@ -50,7 +50,7 @@
         }
 
         function removeFromCart(id) {
-            // Remove last occurrence (LIFO like React version)
+            
             const index = cart.map(item => item.id).lastIndexOf(id);
             if (index !== -1) {
                 cart.splice(index, 1);
@@ -63,7 +63,7 @@ function renderServices() {
     servicesListEl.innerHTML = SERVICES.map(service => {
         const count = cart.filter(item => item.id === service.id).length;
 
-        // Show Add button if count === 0, else show Remove button
+        
         const actionButton = count === 0
             ? `
                 <button onclick="addToCart(${service.id})" 
@@ -145,15 +145,7 @@ function renderServices() {
 
             // Simulate API call
             setTimeout(() => {
-                // Here you would use emailjs.send(...)
-                // For example:
-                // emailjs.send('service_id', 'template_id', {
-                //     from_name: document.getElementById('fullName').value,
-                //     from_email: document.getElementById('email').value,
-                //     message: 'Booking request...'
-                // });
-                
-                // For now, simulate success
+              
                 bookBtn.innerText = originalBtnText;
                 bookBtn.disabled = false;
                 bookBtn.classList.remove('opacity-75', 'cursor-wait');
