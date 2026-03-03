@@ -213,9 +213,9 @@
                     <p class="text-blue-100 text-lg">Stay updated with the latest news and special offers.</p>
                 </div>
                 <div class="lg:w-1/2 w-full">
-                    <form class="flex flex-col sm:flex-row gap-3" onsubmit="event.preventDefault(); alert('Subscribed!')">
-                        <input type="text" placeholder="Full name" class="w-full sm:w-1/3 px-4 py-3 rounded-md border-0 focus:ring-2 focus:ring-white bg-blue-500/20 text-white placeholder-blue-100 backdrop-blur-sm" />
-                        <input type="email" placeholder="Email" class="w-full sm:w-1/3 px-4 py-3 rounded-md border-0 focus:ring-2 focus:ring-white bg-blue-500/20 text-white placeholder-blue-100 backdrop-blur-sm" />
+                    <form id="newsletter-form" class="flex flex-col sm:flex-row gap-3" onsubmit="event.preventDefault(); alert('Subscribed!')">
+                        <input id="newsletterName" type="text" placeholder="Full name" class="w-full sm:w-1/3 px-4 py-3 rounded-md border-0 focus:ring-2 focus:ring-white bg-blue-500/20 text-white placeholder-blue-100 backdrop-blur-sm" />
+                        <input id="newsletterEmail" type="email" placeholder="Email" class="w-full sm:w-1/3 px-4 py-3 rounded-md border-0 focus:ring-2 focus:ring-white bg-blue-500/20 text-white placeholder-blue-100 backdrop-blur-sm" />
                         <button type="submit" class="w-full sm:w-1/3 px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-600 focus:ring-white transition">Subscribe</button>
                     </form>
                 </div>
@@ -270,6 +270,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
